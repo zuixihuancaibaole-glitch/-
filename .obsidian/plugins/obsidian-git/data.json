@@ -1,0 +1,15 @@
+{
+  "autoSaveInterval": 10,
+  "autoBackupAfterFileChange": true,
+  "setLastSaveToLastCommit": true,
+  "differentIntervalCommitAndPush": false,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": true,
+  "autoCommitOnlyStaged": false,
+  "customMessageOnAutoBackup": false,
+  "autoCommitMessage": "vault backup: {{date}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "disablePush": false,
+  "pullBeforePush": true,
+  "syncMethod": "merge"
+}

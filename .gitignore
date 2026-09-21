@@ -1,0 +1,12 @@
+# Local AI/session settings
+.claudian/
+
+# Machine-specific Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+.DS_Store
+Thumbs.db
+
+# Local reference textbook; keep third-party large PDF out of GitHub
+/高等数学 上册 第八版 (同济大学数学科学院 编) (z-library.sk, 1lib.sk, z-lib.sk).pdf
