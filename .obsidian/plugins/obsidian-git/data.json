@@ -1,7 +1,7 @@
 {
-  "autoSaveInterval": 0.1,
+  "autoSaveInterval": 10,
   "autoBackupAfterFileChange": true,
-  "setLastSaveToLastCommit": false,
+  "setLastSaveToLastCommit": true,
   "differentIntervalCommitAndPush": false,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
