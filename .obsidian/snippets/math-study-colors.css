@@ -1,0 +1,17 @@
+/* Only notes carrying cssclasses: math-study-colors use this palette. */
+.math-study-colors { --math-core: #2876b9; --math-method: #279255; --math-caution: #d64747; }
+.math-study-colors strong, .math-study-colors .cm-strong { color: var(--math-core); }
+.math-study-colors .callout[data-callout="core"],
+.math-study-colors .callout[data-callout="abstract"] { --callout-color: 40,118,185; --callout-icon: lucide-book-open; }
+.math-study-colors .callout[data-callout="method"] { --callout-color: 39,146,85; --callout-icon: lucide-route; }
+.math-study-colors .callout[data-callout="caution"],
+.math-study-colors .callout[data-callout="warning"] { --callout-color: 214,71,71; --callout-icon: lucide-alert-triangle; }
+.math-study-colors .callout[data-callout="core"] .callout-content,
+.math-study-colors .callout[data-callout="abstract"] .callout-content { color: var(--math-core); }
+.math-study-colors .callout[data-callout="method"] .callout-content,
+.math-study-colors .callout[data-callout="method"] strong { color: var(--math-method); }
+.math-study-colors .callout[data-callout="caution"] .callout-content,
+.math-study-colors .callout[data-callout="warning"] .callout-content,
+.math-study-colors .callout[data-callout="caution"] strong,
+.math-study-colors .callout[data-callout="warning"] strong { color: var(--math-caution); }
+.math-study-colors :is(h1,h2,h3,h4,h5,h6) strong { color: inherit; }
